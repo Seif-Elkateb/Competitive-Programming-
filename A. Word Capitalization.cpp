@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-    string s;
-    cin>>s;
-    isupper(s[0])?:s[0]=toupper(s[0]);
-    cout<<s;
+    string x;
+    cin>>x;
+    x[0]=toupper(x[0]);
+    cout<<x;
     return 0;
 }
